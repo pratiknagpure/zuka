@@ -1,0 +1,32 @@
+.landing-page{
+      background-image: url(../images/landing_page.png);
+      background-position: center;
+      background-size: cover;
+      display: table;
+      width: 100%;
+      padding: 200px 0;
+      /*height: 800px;*/
+}
+
+.welcome-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+}
+.welcome-text p{
+      opacity: 0.7;
+}
+.home-buton{
+  background-color: white;
+  border: 1.5px solid #956241;
+  border-radius: 17px;
+  color: #956241;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 6px 30px;
+      line-height: 28px;
+}
+
+.nav-home-page{
+    padding: 0 0 30px 0;
+}

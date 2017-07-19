@@ -1,0 +1,42 @@
+.top-header {
+      background: #121212;
+      height: 40px;
+}
+.top-header input {
+      background: #0f2940;
+      height: 28px;
+      color: #121212;
+      border: none;
+}
+.form-control {
+    padding-right: 30px;
+}
+.zuka-search{
+    margin-top: 4px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.form-control + .glyphicon {
+    position: relative;
+    left: 141px;
+    padding: 8px 27px;
+    top: -28px;
+    color: #6b696a;
+}
+.zuka-cart-icon {
+    margin: 6px 80px 0px 10px;
+    cursor: pointer;
+    color: #6b696a;
+}
+.zuka-login-icon{
+    margin: 6px 5px 0px 10px;
+    cursor: pointer;
+    color: #6b696a;
+}
+.zuka-login-icon img{
+    width: 20px;
+}
+.zuka-cart-icon  img{
+    width: 20px;
+}

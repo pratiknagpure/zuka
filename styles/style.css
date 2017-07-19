@@ -1,0 +1,11 @@
+body{
+	color:#848484;
+	font-family:"helvetica", sans-serif ;
+	font-size:14px;
+	/*padding-top:133px; */
+}
+*{outline: none !important;}
+
+a {
+  text-decoration: none;
+}
