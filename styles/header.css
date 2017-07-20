@@ -1,0 +1,19 @@
+.top-header {
+      background: #121212;
+
+}
+.search-icon{
+      position: relative;
+      top: -20px;
+      right: 5px;
+      float: right;
+}
+.zuka-search{
+      height: 25px;
+      background: #121212;
+}
+#bs-example-navbar-collapse-1 li{
+      padding: 0 10px;
+      padding-top: 8px;
+      cursor: pointer;
+}
