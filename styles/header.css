@@ -23,3 +23,6 @@
       padding-top: 14px;
       cursor: pointer;
 }
+.zuka-search:focus{
+  border: none;
+}
