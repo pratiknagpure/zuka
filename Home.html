@@ -10,6 +10,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidenavbar.css">
+    <link rel="stylesheet" href="styles/home-page.css">
     <link rel="stylesheet" href="styles/style.css">
 
   </head>
@@ -36,19 +38,79 @@
         <div class="container">
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
             <ul class="nav navbar-nav navbar-right">
-              <li><input class="form-control zuka-search" type="search" /><span class="glyphicon glyphicon-search search-icon"></span></li>
-              <li><img src="images/login.png">
+              <li title="search" class="search-input">
+                <input class="form-control zuka-search" type="search" />
+                <span class="glyphicon glyphicon-search search-icon"></span>
+              </li>
+              <li title="Log In"><img src="images/login.png">
               <span>Log In</span></li>
-              <li><img src="images/cart.png">
+              <li title="Cart"><img src="images/cart.png">
               <span>Cart</span></li>
+            </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
     </header>
+
+    <!-- sidebar -->
+    <section class="zuka-navbar">
+        <div class="row row-offcanvas zuka-navbar-row">
+
+          <div class="col-xs-6 col-sm-3 sidebar-offcanvas text-center" id="sidebar" role="navigation">
+            <div class="zuka-main-logo"><img src="images/logo.png"></div>
+              <ul class="nav zuka-nav-ul">
+                <li title="Home"class="active"><a href="#">HOME</a></li>
+                <li title="About Us"><a href="#">ABOUT US</a></li>
+                <li title="Our Products"><a href="#">OUR PRODUCTS</a></li>
+                <li title="Blogs"><a href="#">BLOGS</a></li>
+                <li title="Contacts"><a href="#">CONTACTS</a></li>
+              </ul>
+              <div class="zuka-social-links">
+                <ul class="nav navbar-nav ">
+                  <li title="Facebook">
+                    <a href="#"><img src="images/fb_icon.png"></a>
+                  </li>
+                  <li title="Twitter">
+                    <a href="#"><img src="images/twitter_icon.png"></a>
+                  </li>
+                  <li title="Linkedin">
+                    <a href="#"><img src="images/linkedin.png"></a>
+                  </li>
+                  <li title="Instagram">
+                    <a href="#"><img src="images/instagram.png"></a>
+                  </li>
+                </ul>
+
+              </div>
+          </div>
+
+          <!-- main area -->
+            <div class="col-xs-12 col-sm-9 zuka-main-area text-center">
+              <div class="home-page-content">
+                    <div class="home-heading">
+                      <h1>THE CHOCOLATE SERENDIPITY</h1>
+                      <div class="header-underline"></div>
+                    </div>
+                    <div class="home-description">
+                      <p>Serendipity is a premium doubled decked chocolate brownie served with an
+                        origin oriented dark chocolate from Madagascar. Treat yourself to this owning
+                        chocolate delicacy with a small scoop of homemade white chocolate vanilla ice
+                        cream or with our low fat chocolate ice cream.
+                      </p>
+                  </div>
+                   <a title="Buy Now" target="_self"><button class="btn banner-btn buy-now-buton">Buy Now</button></a>
+              </div>
+            </div><!-- /.col-xs-12 main -->
+
+        </div>
+    </section>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="script/bootstrap/bootstrap.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

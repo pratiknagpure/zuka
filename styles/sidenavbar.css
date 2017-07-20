@@ -1,0 +1,90 @@
+#sidebar {
+    height: 100%;
+    padding-right: 0;
+    padding-top: 20px;
+    background: #301504;
+    padding-left: 0;
+    padding-bottom: 170px;
+    position: relative;
+    top: -49px;
+    z-index: 99999;
+}
+#sidebar .nav {
+
+}
+#sidebar .zuka-nav-ul li {
+    border: 0 #3f1f0a solid;
+    border-bottom-width: 1px;
+}
+.sidebar-offcanvas .nav .nav.collapse,
+.sidebar-offcanvas .nav .nav.collapsing {
+    margin-left: 5%;
+    background-color: #f8f8f8;
+}
+
+.sidebar-offcanvas .nav .nav.collapse .nav {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    z-index: 100;
+    background-color: #f8f8f8;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.caret.pull-right,
+.caret-right.pull-right {
+    margin-top: 9px;
+}
+.caret-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 4px solid;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.zuka-navbar{
+      margin-top: 50px;
+}
+.zuka-navbar-row{
+    margin: 0;
+}
+.zuka-nav-ul{
+    margin-top: 40px;
+    color: #a25f35;
+}
+.zuka-nav-ul li a{
+    color: #a25f35;
+    height: 55px;
+    line-height: 36px;
+    cursor: pointer;
+}
+.zuka-nav-ul li a:hover{
+    background: #3f1f0a;
+    color: white;
+}
+.zuka-nav-ul li a:focus{
+    background: #3f1f0a;
+    color: white;
+}
+.zuka-social-links{
+    margin: 0 auto;
+    display: table;
+}
+.zuka-social-links ul li a{
+    cursor: pointer;
+}
+.zuka-social-links ul li a:hover{
+    background-color: #301504;
+}
+.zuka-main-logo{
+    margin-top: 50px;
+}
+.active a{
+    background: #3f1f0a;
+    color: white !important;
+}

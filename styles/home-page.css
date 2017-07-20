@@ -40,3 +40,38 @@
 .zuka-cart-icon  img{
     width: 20px;
 }*/
+
+.zuka-main-area{
+    background-image: url(../images/homepagebg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.buy-now-buton{
+    background-color: white;
+    border: 1.5px solid #956241;
+    border-radius: 17px;
+    color: #956241;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 6px 30px;
+    line-height: 28px;
+}
+.home-page-content{
+    padding: 70px 0 70px 0;
+    height: 730px;
+}
+.home-description{
+    width: 500px;
+/* text-align: center; */
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.home-heading{
+    color: #5f3a23;
+    margin-bottom: 20px;
+}
+.header-underline{
+    width: 260px;
+    border-bottom: 1px solid #ededeb;
+    margin: 0 auto;
+}
