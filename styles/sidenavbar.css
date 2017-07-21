@@ -9,6 +9,7 @@
     position: relative;
     top: -49px;
     z-index: 99999;
+     height:100vh;
 }
 #sidebar .nav {
 
