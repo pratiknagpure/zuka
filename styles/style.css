@@ -1,6 +1,35 @@
+/* definition */
+@font-face {
+  font-family: segoeui;
+  src: url('fonts/segoeui.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* definition */
+@font-face {
+  font-family: bernhc;
+  src: url('fonts/BERNHC.ttf');
+}
+/* definition */
+@font-face {
+  font-family: seguisb;
+  src: url('fonts/seguisb.ttf');
+}
+@font-face {
+  font-family: segoeuii;
+  src: url('fonts/seguili.ttf');
+}
+@font-face {
+  font-family: segoeuib;
+  src: url('fonts/segoeuib.ttf');
+}
+
+/* use */
+
 body{
 	color:#848484;
-	font-family:"helvetica", sans-serif ;
+	font-family : "segoeui", sans-serif ;
 	font-size:14px;
 	/*padding-top:133px; */
 }

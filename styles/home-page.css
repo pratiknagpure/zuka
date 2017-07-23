@@ -46,7 +46,7 @@
     background-image: url(../images/homepagebg.jpg);
     background-position: center;
     background-size: cover;
-     height:100vh;
+     height : 93vh;
 }
 .buy-now-buton{
     background-color: white;
@@ -62,14 +62,24 @@
     height: 730px;
 }
 .home-description{
-    width: 500px;
-/* text-align: center; */
+ width: 500px;
+    /* text-align: center; */
     margin: 0 auto;
     padding-bottom: 12px;
+    font-family: segoeui;
+    font-weight: bold;
+    color: #787878;
 }
 .home-heading{
     color: #5f3a23;
     margin-bottom: 20px;
+    font-family: bernhc;
+    font-weight: bold;
+    font-size: 45px;
+}
+.home-heading h1{
+
+    font-size: 45px;
 }
 .header-underline{
     width: 260px;
