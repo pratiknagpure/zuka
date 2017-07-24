@@ -1,46 +1,4 @@
-/* Home Styles */
-/*.top-header {
-      background: #121212;
-      height: 40px;
-}
-.top-header input {
-      background: #0f2940;
-      height: 28px;
-      color: #121212;
-      border: none;
-}
-.form-control {
-    padding-right: 30px;
-}
-.zuka-search{
-    margin-top: 4px;
-    color: white;
-    margin-right: 20px;
-    cursor: pointer;
-}
-.form-control + .glyphicon {
-    position: relative;
-    left: 141px;
-    padding: 8px 27px;
-    top: -28px;
-    color: #6b696a;
-}
-.zuka-cart-icon {
-    margin: 6px 80px 0px 10px;
-    cursor: pointer;
-    color: #6b696a;
-}
-.zuka-login-icon{
-    margin: 6px 5px 0px 10px;
-    cursor: pointer;
-    color: #6b696a;
-}
-.zuka-login-icon img{
-    width: 20px;
-}
-.zuka-cart-icon  img{
-    width: 20px;
-}*/
+/* For mobile phones: */
 
 .zuka-main-area{
     background-image: url(../images/homepagebg.jpg);
@@ -62,7 +20,7 @@
     height: 730px;
 }
 .home-description{
- width: 500px;
+ width: 70%;
     /* text-align: center; */
     margin: 0 auto;
     padding-bottom: 12px;
@@ -85,4 +43,104 @@
     width: 260px;
     border-bottom: 1px solid #ededeb;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+    .zuka-main-area{
+        background-image: url(../images/homepagebg.jpg);
+        background-position: center;
+        background-size: cover;
+         height : 93vh;
+    }
+    .buy-now-buton{
+        background-color: white;
+        border: 1.5px solid #956241;
+        border-radius: 17px;
+        color: #956241;
+        font-size: 17px;
+        padding: 6px 30px;
+        line-height: 28px;
+    }
+    .home-page-content{
+        padding: 70px 0 70px 0;
+        height: 730px;
+    }
+    .home-description{
+     width: 70%;
+        /* text-align: center; */
+        margin: 0 auto;
+        padding-bottom: 12px;
+        font-family: segoeui;
+        font-weight: bold;
+        color: #787878;
+    }
+    .home-heading{
+        color: #5f3a23;
+        margin-bottom: 20px;
+        font-family: bernhc;
+        font-weight: bold;
+        font-size: 45px;
+    }
+    .home-heading h1{
+
+        font-size: 45px;
+    }
+    .header-underline{
+        width: 260px;
+        border-bottom: 1px solid #ededeb;
+        margin: 0 auto;
+    }
+
+  }
+@media only screen and (min-width: 768px) {
+      /* For desktop: */
+
+      .zuka-main-area{
+          background-image: url(../images/homepagebg.jpg);
+          background-position: center;
+          background-size: cover;
+           height : 93vh;
+      }
+      .buy-now-buton{
+          background-color: white;
+          border: 1.5px solid #956241;
+          border-radius: 17px;
+          color: #956241;
+          font-size: 17px;
+          padding: 6px 30px;
+          line-height: 28px;
+      }
+      .home-page-content{
+          padding: 70px 0 70px 0;
+          height: 730px;
+      }
+      .home-description{
+       width: 70%;
+          /* text-align: center; */
+          margin: 0 auto;
+          padding-bottom: 12px;
+          font-family: segoeui;
+          font-weight: bold;
+          color: #787878;
+      }
+      .home-heading{
+          color: #5f3a23;
+          margin-bottom: 20px;
+          font-family: bernhc;
+          font-weight: bold;
+          font-size: 45px;
+      }
+      .home-heading h1{
+
+          font-size: 45px;
+      }
+      .header-underline{
+          width: 260px;
+          border-bottom: 1px solid #ededeb;
+          margin: 0 auto;
+      }
+
+
 }

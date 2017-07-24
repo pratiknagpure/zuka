@@ -1,7 +1,10 @@
 /*Header Styles*/
+
+/* For mobile phones: */
 .top-header {
       background: #121212;
       margin: 0;
+          text-align: center;
 
 }
 .search-icon{
@@ -19,11 +22,80 @@
 .search-input{
       position: absolute;
 }
-#bs-example-navbar-collapse-1 li{
+.top-header li{
       padding: 0 10px;
       padding-top: 14px;
       cursor: pointer;
+          padding-bottom: 5px;
 }
 .zuka-search:focus{
   border: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+    .top-header {
+          background: #121212;
+          margin: 0;
+
+    }
+    .search-icon{
+          position: absolute;
+          top: 18px;
+          right: 16px;
+          float: right;
+    }
+    .zuka-search{
+          height: 25px;
+          background: #121212;
+          border: none;
+          border-bottom: 1px solid #323232;
+    }
+    .search-input{
+          position: absolute;
+    }
+    .top-header li{
+          padding: 0 10px;
+          padding-top: 14px;
+          cursor: pointer;
+    }
+    .zuka-search:focus{
+      border: none;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    .top-header {
+          background: #121212;
+          margin: 0;
+
+    }
+    .search-icon{
+          position: absolute;
+          top: 18px;
+          right: 16px;
+          float: right;
+    }
+    .zuka-search{
+          height: 25px;
+          background: #121212;
+          border: none;
+          border-bottom: 1px solid #323232;
+    }
+    .search-input{
+          position: absolute;
+    }
+    .top-header li{
+          padding: 0 10px;
+          padding-top: 14px;
+          cursor: pointer;
+    }
+    .zuka-search:focus{
+      border: none;
+    }
+
 }
