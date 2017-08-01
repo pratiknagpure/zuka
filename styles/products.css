@@ -1,12 +1,63 @@
 /* For mobile phones: */
-
+.product {
+      padding: 2px;
+  }
+.hovereffect img{
+    width: 100%;
+  }
+.zuka-products{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.zuka-main-area{
+  margin-top: 50px;
+}
+#myTabContent{
+  margin-top: 20px;
+}
+.products-title{
+  font-family: bernhc;
+  color: #71470d;
+  padding-left: 15px;
+  text-align: left
+}
+#myTab{
+  margin-left: -15px;
+}
+#myTab>li {
+    margin: 2px 2px 2px 2px;
+      color: #a25f35;
+    }
+#myTab>li a{
+      border: 2px solid #a25f35;
+          border-radius: 20px;
+          color: #a25f35;
+        }
+#myTab.nav-pills>li.active>a,#myTab.nav-pills>li.active>a:focus,#myTab.nav-pills>li.active>a:hover  {
+  text-decoration: none;
+  background-color: #a25f35;
+  /* color: #a25f35 !important; */
+  border-radius: 17px;
+    }
+#myTab.nav>li>a:focus, #myTab.nav>li>a:hover{
+  text-decoration: none;
+  background-color: #a25f35;
+  color: white !important;
+  border-radius: 17px;
+}
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-
+    #myTab>li {
+            margin: 0 2px 0 2px;
+          color: #a25f35;
+        }
     .products-title{
       color: #71470d;
+      padding-left: 15px;
     }
-
+    #myTabContent{
+      margin-top: 15px;
+    }
     /* Image gallary styles  */
 
     .hovereffect {
@@ -17,9 +68,7 @@
       position: relative;
       text-align: center;
       cursor: default;
-      border: 1px solid #194778;
-        box-shadow: 10px 11px 13px #b1afaf;
-        border-radius: 5px;
+
     }
 
     .hovereffect .overlay {
@@ -92,13 +141,19 @@
     .img-galary{
             margin-bottom: -71px;
     }
-
+    .zuka-main-area{
+      margin-top: 0;
+    }
   }
 @media only screen and (min-width: 768px) {
       /* For desktop: */
-
+      #myTab>li {
+            margin: 0 2px 0 2px;
+            color: #a25f35;
+          }
       .products-title{
         color: #71470d;
+            padding-left: 15px;
       }
 
       /* Image gallary styles  */
@@ -111,9 +166,6 @@
         position: relative;
         text-align: center;
         cursor: default;
-        border: 1px solid #194778;
-          box-shadow: 10px 11px 13px #b1afaf;
-          border-radius: 5px;
       }
 
       .hovereffect .overlay {
@@ -187,5 +239,10 @@
               margin-bottom: -71px;
       }
 
-
+      .zuka-main-area{
+        margin-top: 0;
+      }
+      #myTabContent{
+        margin-top: 15px;
+      }
 }

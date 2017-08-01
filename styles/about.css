@@ -1,0 +1,28 @@
+/* For mobile phones: */
+.about-title{
+  font-family: bernhc;
+  color: #71470d;
+  padding-left: 15px;
+  text-align: left
+}
+
+#about-tabs li{
+  margin: 0 2px 0 2px;
+    color: #d48b5e;
+}
+#about-tabs>li a{
+  border: 2px solid #d48b5e;
+    border-radius: 20px;
+    color: #a25f35;
+}
+#about-tabs>li.active a {
+    background: #a25f35;
+    color: white !important;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+  }
+
+@media only screen and (min-width: 768px) {
+        /* For desktop: */
+}

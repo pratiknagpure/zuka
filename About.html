@@ -12,18 +12,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidenavbar.css">
-    <link rel="stylesheet" href="styles/home-page.css">
+    <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/style.css">
 
   </head>
   <body>
-
         <!-- sidebar -->
               <div class="col-xs-12 col-md-3 sidebar-offcanvas text-center" id="sidebar" role="navigation">
                 <div class="zuka-main-logo"><img src="images/logo.png"></div>
                   <ul class="nav zuka-nav-ul">
-                    <li class="active" title="Home"><a href="Home.html" target="_self">HOME</a></li>
-                    <li title="About Us"><a href="About.html" target="_self">ABOUT US</a></li>
+                    <li title="Home"><a href="Home.html" target="_self">HOME</a></li>
+                    <li class="active" title="About Us"><a href="About.html" target="_self">ABOUT US</a></li>
                     <li title="Our Products"><a href="Products.html" target="_self">OUR PRODUCTS</a></li>
                     <li title="Blogs"><a href="#">BLOGS</a></li>
                     <li title="Contacts"><a href="#">CONTACTS</a></li>
@@ -68,19 +67,38 @@
           <!-- main area -->
             <div class="col-xs-12 col-md-9 zuka-main-area text-center">
               <div class="home-page-content">
-                    <div class="home-heading">
-                      <h1>THE CHOCOLATE SERENDIPITY</h1>
-                      <div class="header-underline"></div>
+                <div>
+                    <h1 class="about-title">OVERVIEW</h1>
+                </div>
+                <div>
+                  <p>text text text</p>
+                </div>
+                <div class="col-md-12">
+                <div class="col-md-8 col-xs-8">
+                    <ul id="about-tabs" class="nav nav-pills">
+                          <li class="active"><a href="#about" data-toggle="tab">About</a></li>
+                          <li><a href="#philosophy" data-toggle="tab">Our Philosophy</a></li>
+                          <li><a href="#vision" data-toggle="tab">Our Vision</a></li>
+                    </ul>
+                    <div id="about-tab-content" class="tab-content">
+                        <div class="tab-pane fade in active" id="about">
+                            <p>about</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="philosophy">
+                            <p>philosophy</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="vision">
+                            <p>vision</p>
+                        </div>
+
                     </div>
-                    <div class="home-description">
-                      <p>Serendipity is a premium doubled decked chocolate brownie served with an
-                        origin oriented dark chocolate from Madagascar. Treat yourself to this owning
-                        chocolate delicacy with a small scoop of homemade white chocolate vanilla ice
-                        cream or with our low fat chocolate ice cream.
-                      </p>
-                  </div>
-                   <a title="Buy Now" target="_self" href="Products.html"><button class="btn banner-btn buy-now-buton">Buy Now</button></a>
               </div>
+              <div class="col-md-4 col-xs-4">
+                <img class="img-responsive" src="images/zuka_owner.png">
+              </div>
+            </div>
             </div><!-- /.col-xs-12 main -->
 
 
