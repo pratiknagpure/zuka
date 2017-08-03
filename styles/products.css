@@ -45,6 +45,13 @@
   color: white !important;
   border-radius: 17px;
 }
+.product-name{
+  cursor: pointer;
+}
+.product-price{
+  font-size: 21px;
+font-weight: bold;
+}
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     #myTab>li {
@@ -109,7 +116,7 @@
          display: inline-block;
         text-decoration: none;
         padding: 1px 3px;
-        border: 1px solid #fff;
+        /*border: 1px solid #fff;*/
         margin: 4px 0 0 0;
         background-color: transparent;
     }
@@ -206,7 +213,8 @@
            display: inline-block;
           text-decoration: none;
           padding: 1px 3px;
-          border: 1px solid #fff;
+          /*border: 1px solid #fff;*/
+          font-weight: bold;
           margin: 4px 0 0 0;
           background-color: transparent;
       }
@@ -224,6 +232,7 @@
         opacity: 0;
         filter: alpha(opacity=0);
         color: #fff;
+        font-weight: bold;
         text-transform: uppercase;
       }
 
